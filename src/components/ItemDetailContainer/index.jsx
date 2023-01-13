@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 
 
+
 const films = [
     { id: 1, category:"films", image: "https://es.web.img3.acsta.net/pictures/22/11/02/15/37/0544148.jpg", title: "Avatar" },
     { id: 2, category:"films", image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/spider-man-no-way-home-poster-fotogramas-1638214021.jpg", title : "Spiderman"},
