@@ -23,10 +23,18 @@
 
 .detail__image{
     width: 100%;
+    border: 3px solid gold;
 }
 
 .content{
     width: 100%;
+}
+
+.finalizar{
+    border-radius: 25px;
+    background-color: gold;
+    font-size: larger;
+    border: 2px solid black;
 }
 
 

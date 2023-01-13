@@ -1,0 +1,22 @@
+.resumen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+    background-color: rgb(19, 145, 71);
+    font-size: larger;
+}
+
+ .comprar{
+    border-radius: 25px;
+    background-color: gold;
+    font-size: larger;
+}
+
+.vacio{display: flex;
+    flex-direction: column;
+text-align: center;
+width: 400px;
+background-color: rgb(10, 194, 71);
+}

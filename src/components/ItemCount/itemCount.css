@@ -1,7 +1,46 @@
 .counter {
-    width: fit-content;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 150px;
+    height: 150px;
     background-color: gold;
     margin: auto;
     padding: 1rem;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 50px;
+
+}
+
+.bdecremento{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+.bdecremento:hover{
+    background-color: #a70f0f; 
+    color: white;
+}
+
+.bincremento{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+
+.bincremento:hover{
+    background-color: #4CAF50; 
+    color: white;
+}
+
+
+.botonadd{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+.botonadd:hover{
+    background-color: rgb(228, 127, 12); 
+    color: white;
 }

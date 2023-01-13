@@ -1,6 +1,6 @@
 .itemCart{
     display: flex;
-    border-bottom: 1px solid gray;
+    
     max-width: 500px;
     margin: 1rem auto;
 }
@@ -8,4 +8,19 @@
 .itemCart img{
     width: 200px;
     margin-right: 1rem;
+    border: 2px solid gold;
+}
+
+.textocarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.borrar{
+    border-radius: 25px;
+    background-color: gold;
+    font-size: larger;
 }
