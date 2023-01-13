@@ -42,7 +42,7 @@ const Cart =() => {
             cart.map(product => <ItemCart key={product.id} product={product}/>)
         }
        <p>
-            Total: {totalPrice()}
+            Total: ${totalPrice()}
        </p>
        <button onClick={handleClick}>Emitir compra</button>
         </>
